@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Grey+Qo&display=swap');
+
+*{
+  font-family: "Charm", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.toppic{
+    background-color:  rgb(155, 248, 220);
+    color: blue;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+#bigtoppic{
+    background-color: white;
+ }
+
+.section{
+    background-color: rgb(118, 250, 210);
+    text-align: center;
+    border-radius: 1rem;
+}
+
+#flextoppic{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#pic1{
+    width: 300px;
+    border: 5px dotted black;
+    border-radius: 80px;
+}
+
+#contentflex{
+    display: flex;
+    background-color: aliceblue;
+}
+
+#pic2{
+    width: 300px;
+    border: 5px dotted black;
+    border-radius: 80px;
+}
+
+#pic3{
+    width: 300px;
+    border: 5px dotted rgb(0, 0, 0);
+    border-radius: 80px;
+}
+
+#contentflex1{
+    display: flex;
+    background-color: aliceblue;
+}
+ 
+#flextoppic1{
+    display: flex;
+}
+
+.contentflex2{
+    display: flex;
+    background-color: rgb(0, 83, 155);
+    justify-content: center;
+    align-items: center;
+}
+
+.pic4{
+    width: 25%;
+    border: 5px dotted rgb(255, 248, 248);
+    border-radius: 80px;
+    justify-content: center;
+    /* height: 650px; */
+    margin: auto;
+}
+
+
+.link{
+    width: 300px;
+    border: 5px dotted black;
+    border-radius: 80px;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(120, 173, 253);
+}
